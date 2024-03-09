@@ -1,0 +1,191 @@
+*{
+  font-family: arial;
+}
+div{
+  margin-bottom: 15px;
+}
+.carre{
+  background-color: red;
+  width: 100px;
+  height:100px;
+  display: inline-block;
+}
+.rond{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  display: inline-block;
+}
+.texte{
+  padding: 1px;
+  margin: 1px;
+}
+.satisfy{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(172, 171, 172);
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  width: 250px;
+}
+.ytmusic{
+  width: 300px;
+  padding:10px;
+  background-color: rgb(30, 29, 31);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+.ytmusic-titre{
+  color: white;
+  font-weight: bold;
+}
+.ytmusic-desc{
+  color: rgb(125, 124, 125);
+}
+.twitter-div{
+  display: block;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-width: 0px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.35);
+  border-radius: 10px;
+  width: 480px;
+}
+.twitter-pp{
+  height: 50px;
+  border-radius: 200px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.happen{
+  border:none;
+  background: none;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-right: 50px;
+  padding-top: 	10px;
+  padding-bottom: 10px;
+  padding-left:5px;
+  margin-left: 0px;
+  margin-right: 15px;
+  border-radius: 60px;
+  transition: background-color .15s;
+}
+.happen:focus{
+  outline:none;
+  caret-color: white;
+  background-color: rgb(207, 204, 207)
+}
+.tweeter{
+  font-family: arial;
+  font-weight: bold;
+  background-color: rgb(69, 141, 216);
+  color:white;
+  border-radius: 60px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  transition: background-color .15s, box-shadow .15s;
+}
+.tweeter:hover{
+  background-color: rgb(92, 152, 216);
+  box-shadow: 4px 4px 8px rgba(255,255,255, .15);
+}
+.tweeter:active{
+  background-color: rgb(105, 158, 216);
+}
+.image{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.spa{
+  box-shadow: 0px 0px 10px rgba(0,0,0,.15);
+  display: inline-block;
+  margin-right: 20px;
+}
+.nom{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.mutual{
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: rgb(100, 99, 100);
+}
+.add{
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(46, 94, 187);
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.google{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width:450px;
+  border-width: 0px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.15);
+  border-radius: 20px;
+  color: rgb(118, 117, 118);
+  transition: box-shadow .15s;
+}
+.google:hover{
+  box-shadow: 0px 0px 20px rgba(0,0,0,.4);
+}
+.google:focus{
+  outline:none;
+}
+.google-logo{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  cursor: pointer;
+}
+.boutons{
+  background-color: rgb(188, 188, 189);
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.bouton{
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}

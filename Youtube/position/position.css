@@ -1,0 +1,43 @@
+.body{
+  height:3000px;
+  padding-top:60px;
+  padding-left:80px;
+}
+.header{
+  background-color: black;
+  color: white;
+  position:fixed;
+  top:0px;
+  left:0;
+  right:0;
+  height:50px;
+  z-index: 1;
+}
+.absolute{
+  position:absolute;
+  background-color: black;
+  color:white;
+  right:10px;
+  bottom:10px;
+}
+.div1{
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+  position:static;
+}
+.div2{
+  background-color:lightpink;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+.sidebar{
+  background-color: green;
+  color: white;
+  position:fixed;
+  left:0px;
+  bottom:0;
+  top:50px;
+  width:72px
+}

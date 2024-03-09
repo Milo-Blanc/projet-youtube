@@ -1,0 +1,142 @@
+body{
+  background-color: rgb(242, 242, 242);
+}
+.nom{
+  margin-bottom: 5px;
+}
+.email{
+  display: block;
+  margin-bottom: 5px;
+}
+.merci{
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+.google{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width:450px;
+  border-width: 0px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.15);
+  border-radius: 20px;
+  color: rgb(118, 117, 118);
+  transition: box-shadow .15s;
+}
+.google:hover{
+  box-shadow: 0px 0px 20px rgba(0,0,0,.4);
+}
+.google:focus{
+  outline:none;
+}
+.google-logo{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  cursor: pointer;
+}
+button{
+  border-radius: 3px;
+  border-style: solid;
+}
+.first{
+  width: 80px;
+  border-color: rgb(202, 201, 202);
+  border-style: solid;
+  margin-right: 1px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 35px;
+  margin-bottom: 10px;
+}
+.e-mail{
+  display: block;
+  width: 80px;
+  border-color: rgb(202, 201, 202);
+  border-style: solid;
+  margin-right: 1px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 173px;
+  margin-bottom: 10px;
+}
+
+.sign-up{
+  background-color: rgb(58, 117, 234);
+  display: block;
+  border-color: rgb(202, 201, 202);
+  border-style: solid;
+  margin-right: 1px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 15px;
+  padding-left: 106px;
+  padding-right: 106px;
+  margin-bottom: 10px;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.uber-request{
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.pickup,.destination,.schedule{
+  color: rgb(241, 239, 241);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgb(235, 233, 235);
+  display: block;
+  margin-top: 5px;
+  font-size: 15px;
+  padding-right: 110px;
+  transition: all .15s;
+}
+.pickup:hover, .destination:hover, .schedule:hover{
+  background-color: rgb(218, 216, 218);
+  outline: none;
+}
+.pickup:focus, .destination:focus, .schedule:active{
+  background-color: rgb(197, 194, 197);
+  outline: none;
+
+}
+.request{
+  background-color: black;
+  border: none;
+  margin-top: 20px;
+  color: white;
+  border-radius: 0px;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline;
+  cursor: pointer;
+}
+.schedule{
+  display: inline;
+  cursor: pointer;
+  color: black;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

@@ -1,0 +1,43 @@
+.flex1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.div1{
+  background-color: lightblue;
+}
+.div2{
+  background-color: lightpink;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.div3{
+  background-color: lightblue;
+  width: 100px;
+}
+.div4{
+  background-color: lightpink;
+  flex:1;
+}
+
+.flex3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.div5{
+  background-color: lightblue;
+  width: 100px;
+}
+.div6{
+  background-color: lightpink;
+  flex:1;
+}
+.div7{
+  background-color: lightblue;
+  flex:2;
+}
